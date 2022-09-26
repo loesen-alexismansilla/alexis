@@ -81,24 +81,24 @@ export default function Home() {
               <h1 className='ml-5 text-xl'>Alexis Mansilla</h1>
             </div>
             <div className='w-full mt-5 space-y-0.5'>
-              <div className='flex flex-col items-start w-full h-16 bg-white rounded-tl-md rounded-tr-md sm:flex-row sm:items-center'>
-                <div className='ml-10'>Email</div>
-                <div className='ml-10 mr-10 sm:ml-auto'>alexis1614@live.com.ar</div>
+              <div className='flex flex-col items-start justify-center w-full h-16 bg-white rounded-tl-md rounded-tr-md sm:flex-row sm:items-center'>
+                <div className='ml-4'>Email</div>
+                <div className='ml-4 sm:ml-auto sm:mr-10'>alexis1614@live.com.ar</div>
               </div>
-              <div className='flex flex-col items-start w-full h-16 bg-white sm:flex-row sm:items-center'>
-                <div className='ml-10'>Profession</div>
-                <div className='ml-10 mr-10 sm:ml-auto'>Full-stack Web Developer</div>
+              <div className='flex flex-col items-start justify-center w-full h-16 bg-white sm:flex-row sm:items-center'>
+                <div className='ml-4'>Profession</div>
+                <div className='ml-4 mb-2 sm:ml-auto sm:mr-10'>Full-stack Web Developer</div>
               </div>
-              <div className='flex flex-col items-start w-full h-auto h-16 bg-white md:flex-row md:items-center'>
-                <div className='ml-10'>Experiencie</div>
-                <div className='flex flex-col items-start ml-10 text-white md:ml-auto sm:flex-row md:ml-auto sm:items-center'>
+              <div className='flex flex-col items-start w-full h-auto bg-white md:flex-row md:items-center'>
+                <div className='ml-4'>Experiencie</div>
+                <div className='flex flex-col items-start ml-10 text-white sm:mr-10 md:ml-auto sm:flex-row md:ml-auto sm:items-center'>
                   <div className='bg-amber-500 rounded-md mt-1 mb-1 p-1 pl-3 pr-3 hover:bg-black md:mr-2'>WebDeveloper</div>
                   <div className='bg-amber-500 rounded-md mt-1 mb-1 p-1 pl-3 pr-3 hover:bg-black md:mr-2'>WebDeveloper</div>
                   <div className='bg-amber-500 rounded-md mt-1 mb-1 p-1 pl-3 pr-3 hover:bg-black md:mr-2'>WebDeveloper</div>
                 </div>
               </div>
               <div className='flex flex-col items-start w-full h-16 bg-white md:flex-row md:items-center'>
-                <div className='ml-10'>Preferred Stack</div>
+                <div className='ml-4'>Preferred Stack</div>
                 <div className='flex space-x-2 ml-10 mr-10 overflow-hidden md:ml-auto'>
                   {stacks.map((data) => {
                     return <img className='h-8' src={data.icon} alt={data.name} />
@@ -106,7 +106,7 @@ export default function Home() {
                 </div>
               </div>
               <div className='flex flex-col items-start w-full h-16 bg-white rounded-bl-md rounded-br-md sm:flex-row sm:items-center'>
-                <div className='ml-10'>Social</div>
+                <div className='ml-4'>Social</div>
                 <div className='flex ml-10 mr-10 space-x-5 sm:ml-auto'>
                   {socials.map((data) => {
                     return (
